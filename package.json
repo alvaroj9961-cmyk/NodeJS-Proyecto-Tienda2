@@ -1,0 +1,18 @@
+{
+  "name": "tienda-barrio-api",
+  "version": "1.0.0",
+  "description": "API para gestionar los productos de la tienda de don Pedro",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "saludo": "Hola, soy un script"
+  },
+  "keywords": [],
+  "author": "Alvaro Javier Arcila",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  }
+}
