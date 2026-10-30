@@ -2,6 +2,8 @@ import pc from "picocolors";
 import { formatearPrecio, formatearNombre } from "./utils/formato.js";
 import { productos } from "./data/productos.js";
 import { buscarPorId, listarAgotados, listarPorCategoria, valorInventario } from "./servicios/inventario.js";
+import { calcularIVA,totalConIVA } from "./utils/formato.js";
+
 console.log(pc.green("API Mi Tienda de Barrio"));
 console.log(pc.yellow("Aprendiz: Alvaro Javier Arcila"));
 console.log(pc.blue("Bienvenido/a"));
